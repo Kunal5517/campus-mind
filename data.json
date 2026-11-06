@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "good afternoon", "howdy", "what's up", "greetings", "namaste","kya haal hai", "aur bhai", "kaise ho", "sun", "suno", "namaste"],
+      "responses": [
+        "Hello! Welcome to Medicaps University Admissions. How can I help you today?",
+        "Hi there! I'm your college assistant. Ask me about admissions, courses, fees, or placements!",
+        "Hey! Great to have you here. What would you like to know about Medicaps University?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see ya", "later", "take care", "quit", "exit", "that's all", "nothing more"],
+      "responses": [
+        "Goodbye! Best of luck with your admissions journey. Feel free to come back anytime!",
+        "Take care! We hope to see you at Medicaps University soon.",
+        "Bye! Don't hesitate to reach out if you have more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thank you so much", "thanks a lot", "helpful", "great help", "appreciate it"],
+      "responses": [
+        "You're very welcome! Is there anything else I can help you with?",
+        "Happy to help! Let me know if you have more questions.",
+        "My pleasure! Feel free to ask anything else about the university."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["how to apply", "admission process", "apply for admission", "application form", "how do I get admission", "admission procedure", "enroll", "enrollment", "how to enroll", "application deadline", "last date to apply" ,"bhai admission kaise lu", "admission ka kya process hai", "form kaise bhare"],
+      "responses": [
+        "📋 **Admission Process at Medicaps University:**\n\n1. Visit our official website and fill out the online application form.\n2. Upload required documents (10th, 12th marksheets, ID proof, passport photo).\n3. Pay the application fee of ₹500 online.\n4. Appear for the entrance test (if applicable for your course).\n5. Await your merit list result and confirm your seat.\n\n📅 **Key Dates:**\n- Application Opens: April 1st\n- Last Date to Apply: June 30th\n- Results Announced: July 15th\n\nWould you like to know about specific courses or fees?"
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["eligibility", "who can apply", "minimum marks", "cutoff", "qualify", "criteria", "requirements", "am I eligible", "10th marks", "12th marks", "percentage required"],
+      "responses": [
+        "✅ **Eligibility Criteria:**\n\n**Undergraduate (B.Tech, BBA, BCA, B.Sc):**\n- Passed 10+2 from a recognized board\n- Minimum 50% aggregate marks (45% for reserved categories)\n- Physics, Chemistry & Math for engineering programs\n\n**Postgraduate (MBA, M.Tech, MCA):**\n- Bachelor's degree with minimum 55% marks\n- Valid score in CAT/MAT/GATE (as applicable)\n\n**Diploma Programs:**\n- Passed 10th (SSC) with minimum 45% marks\n\nWant details on a specific course?"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses", "programs", "what courses", "which courses", "available programs", "list of courses", "branches", "what do you offer", "stream", "departments"],
+      "responses": [
+        "🎓 **Courses Offered at Medicaps University:**\n\n**Engineering (B.Tech - 4 years):**\n• Computer Science & Engineering (CSE)\n• Artificial Intelligence & Data Science (AIDS)\n• Electronics & Communication (ECE)\n• Mechanical Engineering (ME)\n• Civil Engineering (CE)\n\n**Management:**\n• BBA (3 years) | MBA (2 years)\n\n**Computer Applications:**\n• BCA (3 years) | MCA (2 years)\n\n**Science:**\n• B.Sc (Physics, Chemistry, Math) | M.Sc\n\n**Diploma Programs (2 years):**\n• Civil, Mechanical, Electrical\n\nWould you like fee details or placement info for any of these?"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee structure", "how much", "cost", "tuition", "annual fees", "semester fees", "total fees", "expensive", "affordable", "scholarship", "how much does it cost", "fees kitni hai", "paisa kitna lagega", "btech ki fees kya hai", "kharcha kitna aayega", "sasta hai ya mehenga"],
+      "responses": [
+        "💰 **Fee Structure (Annual):**\n\n| Course | Annual Fees |\n|--------|------------|\n| B.Tech (CSE/AIDS) | ₹1,20,000 |\n| B.Tech (Other) | ₹1,00,000 |\n| BBA | ₹70,000 |\n| BCA | ₹65,000 |\n| MBA | ₹1,50,000 |\n| MCA | ₹90,000 |\n| B.Sc | ₹50,000 |\n| Diploma | ₹45,000 |\n\n**Additional Fees:**\n• Registration: ₹500 (one-time)\n• Hostel: ₹80,000/year (optional)\n• Exam fee: ₹2,000/semester\n\n🎁 **Scholarships available!** Type 'scholarship' to know more."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["scholarship", "financial aid", "fee waiver", "discount", "merit scholarship", "need based", "free education", "reduce fees"],
+      "responses": [
+        "🏆 **Scholarship Opportunities:**\n\n**Merit-Based Scholarships:**\n• 90%+ in 12th → 50% tuition waiver\n• 80–90% in 12th → 25% tuition waiver\n• University Entrance Rank 1–10 → Full tuition waiver\n\n**Government Scholarships:**\n• SC/ST/OBC students: State government scheme applicable\n• EWS (Economically Weaker Section): 10% reservation + fee support\n\n**Sports Quota:**\n• National/State level athletes get special fee concessions\n\n**How to Apply:** Submit scholarship form during admission with required certificates.\n\nNeed help with any specific scholarship category?"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["placement", "jobs", "career", "recruiters", "salary", "package", "companies", "campus placement", "hiring", "job placement", "placement record", "highest package", "average package","placement kaisa hai", "job lagti hai kya", "package kitna milta hai", "konsi companies aati hain", "average package kya hai bhai"],
+      "responses": [
+        "🚀 **Placement Highlights (2024):**\n\n📊 **Statistics:**\n• Overall Placement Rate: **94%**\n• Highest Package: **₹42 LPA** (Google, CSE)\n• Average Package: **₹8.5 LPA**\n• Total Recruiters: **180+ companies**\n\n🏢 **Top Recruiters:**\n• Tech: Google, Microsoft, Amazon, TCS, Infosys, Wipro, Accenture\n• Finance: HDFC Bank, ICICI, Deloitte\n• Core: L&T, Tata Steel, BHEL\n• Startups: Swiggy, Zomato, BYJU's, Razorpay\n\n📅 **Placement Season:** October – March (final year)\n\n💼 **Training Support:** Aptitude, coding, soft skills & mock interviews provided.\n\nWould you like branch-specific placement data?"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "accommodation", "dormitory", "stay", "room", "boarding", "living facility", "on campus stay", "campus housing", "mess food","hostel hai kya", "hostel ki fees kitni hai", "rehne ka kya jugaad hai", "hostel facility kaisi hai", "mess ka khana kaisa hai"],
+      "responses": [
+        "🏠 **Hostel & Accommodation:**\n\n**Boys' Hostel:**\n• 3 blocks with 800+ beds\n• AC & Non-AC rooms available\n• Fee: ₹80,000/year (AC) | ₹60,000/year (Non-AC)\n\n**Girls' Hostel:**\n• Separate secured campus\n• 24/7 security & CCTV\n• Fee: ₹85,000/year (AC) | ₹65,000/year (Non-AC)\n\n**Facilities Include:**\n✅ Wi-Fi | ✅ Laundry | ✅ Mess (vegetarian & non-veg)\n✅ Common room | ✅ Indoor games | ✅ Gym\n\n**Mess Fee:** ₹3,500/month (included in above)\n\nWant to know about other campus facilities?"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["facilities", "infrastructure", "library", "lab", "campus", "sports", "canteen", "wifi", "internet", "what does campus have", "amenities"],
+      "responses": [
+        "🏛️ **Campus Facilities at Medicaps University:**\n\n**Academic:**\n📚 Central Library (50,000+ books, e-journals)\n🖥️ Computer Labs (latest hardware, 24/7 access)\n🔬 State-of-art research labs\n📡 Free high-speed Wi-Fi across campus\n\n**Student Life:**\n⚽ Sports complex (cricket, football, basketball, badminton)\n🏊 Swimming pool\n🎭 Auditorium (1,500 capacity)\n🍽️ Food court & multiple cafeterias\n🏥 Medical center on campus\n🛒 ATM & bank branch\n\n**Support:**\n👩‍💼 Career Development Center\n🧠 Counseling & wellness center\n🚌 Transport facility (30+ routes)\n\nAnything specific you'd like to know more about?"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone number", "email", "address", "location", "how to reach", "office", "call", "where is the college", "how to contact", "reach out"],
+      "responses": [
+        "📞 **Contact Medicaps University:**\n\n🏫 **Address:**\nMedicaps University Campus,\nAB Rd, Pigdamber, Rau,\nIndore, Madhya Pradesh – 453446\n\n📱 **Phone:** +91-731-4259500\n📧 **Email:** admissions@medicaps.ac.in\n🌐 **Website:** www.medicaps.ac.in\n\n⏰ **Office Hours:**\nMon–Sat: 9:00 AM – 5:00 PM\nSunday: Closed\n\n📍 **How to Reach:**\n• 15 min from Indore Airport\n• 10 min from Indore Railway Station\n• City bus routes: 12, 45, 78 stop nearby\n\nCan I help you with anything else?"
+      ]
+    },
+    {
+      "tag": "entrance_exam",
+      "patterns": ["entrance exam", "entrance test", "JEE", "CUET", "university exam", "test", "exam pattern", "exam date", "exam syllabus", "how is the exam"],
+      "responses": [
+        "📝 **Entrance Exam Details:**\n\n**Medicaps University Entrance Test (MUET):**\n• Mode: Online (Computer Based)\n• Duration: 2 hours\n• Total Marks: 200\n\n**Sections:**\n| Section | Marks |\n|---------|-------|\n| Mathematics / Reasoning | 80 |\n| English Proficiency | 40 |\n| General Awareness | 40 |\n| Subject Specific (optional) | 40 |\n\n**Exam Dates:** Conducted every Sunday in June\n\n**Also Accepted:** JEE Main, CUET, SAT scores (direct admission based on merit)\n\n**Exam Fee:** ₹500 (included in application)\n\nWant tips on how to prepare for MUET?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["about college", "about university", "tell me about", "what is medicaps", "history", "overview", "university info", "background", "established", "founded"],
+      "responses": [
+        "🏫 **About Medicaps University:**\n\nMedicaps University was established in **1999** and has grown into one of Central India's most respected institutions.\n\n🌟 **Key Highlights:**\n• **NAAC A+ Accredited** (2023)\n• **NBA Accredited** Engineering Programs\n• Ranked **#48 in India** (NIRF Engineering 2024)\n• **10,000+ students** across 40+ programs\n• **800+ faculty** members (60% with Ph.D.)\n• **₹50 Cr+ research grants** received\n• **25,000+ alumni** across 30 countries\n\n**Vision:** To be a globally recognized center for innovation, learning, and excellence.\n\nWhat else would you like to know?"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        
+        "🤔 I'm not sure I understood that. Could you rephrase your question?\n\nYou can ask me about:\n• 📋 **Admissions** – Process, deadlines, eligibility\n• 🎓 **Courses** – Programs we offer\n• 💰 **Fees** – Fee structure & scholarships\n• 🚀 **Placements** – Jobs, recruiters, packages\n• 🏛️ **Campus** – Facilities, hostel, labs\n• 📞 **Contact** – Address, phone, email",
+        "Hmm, I didn't quite catch that! Try asking about admissions, courses, fees, placements, facilities, or contact details.",
+        "I'm still learning! Could you ask about admissions, courses, fees, or placements? I'm best at those topics. 😊" 
+
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "🤔 Bhai, mujhe theek se samajh nahi aaya. Thoda clear bataoge?\n\nAap in baaton ke liye puch sakte ho:\n• 📋 **Admissions**\n• 🎓 **Courses**\n• 💰 **Fees**\n• 🚀 **Placements**",
+        "Hmm, main thoda confuse ho gaya! Kya aap admissions, fees ya courses ke baare mein puchna chahte ho?",
+        "Main abhi naya hoon aur seekh raha hoon! Kya aap fees, admission ya placements ke baare me puch sakte hain?"
+      ]
+    }
+  ]
+}
